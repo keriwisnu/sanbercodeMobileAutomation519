@@ -1,3 +1,4 @@
-username-input: '//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]'
+username-input: '//*[@resource-id="com.example.myapplication:id/username"]'
 password-input: '//*[@resource-id="com.example.myapplication:id/password"]'
-log-in-button: '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]'
+log-in-button: '//*[@resource-id="com.example.myapplication:id/signIn"]'
+error-toast: '//android.widget.Toast[@text="Invalid username/password"]'
