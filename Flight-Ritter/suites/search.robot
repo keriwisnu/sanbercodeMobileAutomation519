@@ -9,6 +9,7 @@ Resource    ../pageObject/search/searchPage.robot
 ${VALID_USERNAME}       support@ngendigital.com
 ${VALID_PASSWORD}       abc123
 ${SEARCH}               DA935
+${INVALID_SEARCH}       ZZ666
 
 
 *** Test Cases ***
@@ -28,6 +29,22 @@ Search with Logged in
     Wait Until Page Contains Element    xpath=//*[contains(@text, "Toronto")]
     Wait Until Page Contains Element    xpath=//*[contains(@text, "Paris")]
     Wait Until Page Contains Element    xpath=//*[contains(@text, "935")]
+    Close Flight Application
+
+Search with Logged in using invalid Flight Number
+    Open Flight Application
+    Click Sign In Button On Home Page
+    Wait Until Element Is Visible    ${username-input}
+    Input Username On Login Page    ${VALID_USERNAME}
+    Input Password On Login Page    ${VALID_PASSWORD}
+    Click Login Button On Login Page
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "NGen")]
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Out")]
+    Open Search
+    Wait Until Element Is Visible    ${search-input}
+    Input Search    ${INVALID_SEARCH}
+    Click Search Button
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Please enter valid Flight Number")]
     Close Flight Application
 
 Search without Logged in
