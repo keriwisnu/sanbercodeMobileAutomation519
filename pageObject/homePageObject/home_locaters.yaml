@@ -1,1 +1,2 @@
 login: '//*[@resource-id="com.example.myapplication:id/login"]'
+menu_book: '//*[@resource-id="com.example.myapplication:id/book"]'
