@@ -17,10 +17,12 @@ Input Password On Login Page
  
 Click Sign In Button On Login Page
     Click Element    ${sign-in-button}
+Verify Login
+    Element Should Contain Text    ${verify-login}    NGen Digital
 Success Login with Valid Credential
     Open Flight Application
     Click Sign In Button On Home Page
     Input Username On Login Page        ${VALID_USERNAME}
     Input Password On Login Page        ${VALID_PASSWORD}
     Click Sign In Button On Login Page  
-    Element Should Contain Text    ${verify-login}    NGen Digital
+    

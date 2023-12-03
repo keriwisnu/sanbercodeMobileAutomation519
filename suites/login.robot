@@ -16,6 +16,7 @@ Login Valid Credential
     Input Username On Login Page        ${VALID_USERNAME}
     Input Password On Login Page        ${VALID_PASSWORD}
     Click Sign In Button On Login Page  
+    Verify Login
 Login Invalid Credential
     Click Sign In Button On Home Page
     Input Username On Login Page        ${INVALID_USERNAME}
