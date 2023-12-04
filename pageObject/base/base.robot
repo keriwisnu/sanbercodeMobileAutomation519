@@ -8,8 +8,6 @@ ${DEVICE_NAME}          emulator-5554
 ${APP_PACKAGE}          com.example.myapplication
 ${APP_ACTIVITY}         com.example.myapplication.MainActivity
 
-
-
 *** Keywords ***
 Open Flight Application
     Open Application    remote_url=${REMORT_URL} 
