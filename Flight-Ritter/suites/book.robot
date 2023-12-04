@@ -37,7 +37,7 @@ Book: Round way - New York - Ottawa - First - Flight and Hotel - Tentative
     Choose tentative
     Submit booking
     Choose and confirm price
-    Wait Until Page Contains Element    xpath=//*[contains(@text, "booked")]
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
     Close Flight Application
 
 Book: One way - Toronto - Paris - Economy - Flight only - Tentative
@@ -61,7 +61,7 @@ Book: One way - Toronto - Paris - Economy - Flight only - Tentative
     Choose tentative
     Submit booking
     Choose and confirm price
-    Wait Until Page Contains Element    xpath=//*[contains(@text, "booked")]
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
     Close Flight Application
 
 Book: Round way - Chicago - London - Bussiness - Flight and Hotel - Non Tentative
@@ -84,5 +84,5 @@ Book: Round way - Chicago - London - Bussiness - Flight and Hotel - Non Tentativ
     Choose hotel and flight
     Submit booking
     Choose and confirm price
-    Wait Until Page Contains Element    xpath=//*[contains(@text, "booked")]
+    Wait Until Page Contains Element    xpath=//*[contains(@text, "Your flight is booked")]
     Close Flight Application
