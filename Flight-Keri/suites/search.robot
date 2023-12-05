@@ -9,7 +9,7 @@ Resource    ../pageObject/searchPage/searchPage.robot
 ${VALID_USERNAME}       support@ngendigital.com
 ${VALID_PASSWORD}       abc123
 ${SEARCH}               DA935
-${INVALID_SEARCH}       ZZ666
+${INVALID_SEARCH}       DA999
 
 
 *** Test Cases ***
