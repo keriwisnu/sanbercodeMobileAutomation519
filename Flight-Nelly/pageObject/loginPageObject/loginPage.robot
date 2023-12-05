@@ -18,7 +18,8 @@ Input Password On Login Page
 Click Sign In Button On Login Page
     Click Element    ${sign-in-button}
 Verify Login
-    Element Should Contain Text    ${verify-login}    NGen Digital
+    Wait Until Element Is Visible  ${verify-login}
+    Element Should Contain Text    ${verify-login}    Sign Out
 Success Login with Valid Credential
     Open Flight Application
     Click Sign In Button On Home Page

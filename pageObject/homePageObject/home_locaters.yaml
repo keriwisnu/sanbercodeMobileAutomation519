@@ -1,3 +1,0 @@
-login: '//*[@resource-id="com.example.myapplication:id/login"]'
-menu_book: '//*[@resource-id="com.example.myapplication:id/book"]'
-menu-search: '//*[@resource-id="com.example.myapplication:id/button6" and @text="Search"]'
