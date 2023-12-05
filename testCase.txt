@@ -1,6 +1,5 @@
 Test Case to do
 1. Sign In
-2. Sign Out
 3. Search Flight
 4. Book Flight
 
