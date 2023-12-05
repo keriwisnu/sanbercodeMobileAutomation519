@@ -1,18 +1,15 @@
 *** Settings ***
 Resource        ../../base/base.robot
 Variables       bookLocator.yaml
-Library         Dialogs
-Library         XML
-
 
 *** Keywords ***
 Open Book
     Click Element    ${book-button}
 
-Book One-way flight only
+Choose One-way Flight
     Click Element    ${one-way-button}
 
-Book Round-way flight only
+Choose Round-way Flight
     Click Element    ${round-way-button}
 
 Choose From City New York
@@ -72,22 +69,22 @@ Choose End Date
     Click Element    ${31-aug}
     Click Element    ${date-ok-button}
 
-Choose flight only
+Choose Flight Only
     Wait Until Element Is Visible    ${flight-button}
     Click Element    ${flight-button}
 
-Choose hotel and flight
-    Wait Until Element Is Visible    ${flighthotel-button}
-    Click Element    ${flighthotel-button}
+Choose Flight and Hotel 
+    Wait Until Element Is Visible    ${flight-hotel-button}
+    Click Element    ${flight-hotel-button}
 
-Choose tentative
-    Wait Until Element Is Visible    ${tentative-button}
-    Click Element    ${tentative-button}
+Choose Checkbox Day
+    Wait Until Element Is Visible    ${checkbox-day-button}
+    Click Element    ${checkbox-day-button}
 
-Submit booking
+Submit Book
     Click Element    ${submit-book-button}
 
-Choose and confirm price
+Choose and Confirm Price
     Wait Until Element Is Visible    ${choose-price-button}
     Click Element    ${choose-price-button}
     Click Element    ${confirm-button}

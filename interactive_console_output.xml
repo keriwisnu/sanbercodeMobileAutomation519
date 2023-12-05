@@ -1,42 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231204 22:19:03.288" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.12.0 on win32)" generated="20231205 13:19:15.105" rpa="false" schemaversion="4">
 <suite id="s1" name="Robot Interactive Console" source="c:\Users\keriwisnu\.vscode\extensions\robocorp.robotframework-lsp-1.11.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
 <test id="s1-t1" name="Default Task/Test" line="5">
 <kw name="Interpreter Main Loop" library="MainLoop">
-<kw name="Open Flight Application">
-<msg timestamp="20231204 22:19:03.946" level="FAIL">No keyword with name 'Open Flight Application' found.</msg>
-<status status="FAIL" starttime="20231204 22:19:03.946" endtime="20231204 22:19:03.946"/>
+<status status="PASS" starttime="20231205 13:19:15.130" endtime="20231205 13:19:16.920"/>
 </kw>
-<kw name="Click Sign In Button On Home Page">
-<status status="NOT RUN" starttime="20231204 22:19:03.947" endtime="20231204 22:19:03.947"/>
-</kw>
-<kw name="Wait Until Element Is Visible">
-<arg>${username-input}</arg>
-<status status="NOT RUN" starttime="20231204 22:19:03.950" endtime="20231204 22:19:03.950"/>
-</kw>
-<kw name="Input Username On Login Page">
-<arg>${VALID_USERNAME}</arg>
-<status status="NOT RUN" starttime="20231204 22:19:03.950" endtime="20231204 22:19:03.950"/>
-</kw>
-<kw name="Input Password On Login Page">
-<arg>${INVALID_PASSWORD}</arg>
-<status status="NOT RUN" starttime="20231204 22:19:03.954" endtime="20231204 22:19:03.954"/>
-</kw>
-<kw name="Click Login Button On Login Page">
-<status status="NOT RUN" starttime="20231204 22:19:03.955" endtime="20231204 22:19:03.955"/>
-</kw>
-<kw name="Wait Until Page Contains Element">
-<arg>xpath=//*[contains(@text, "Invalid username/password")]</arg>
-<status status="NOT RUN" starttime="20231204 22:19:03.955" endtime="20231204 22:19:03.955"/>
-</kw>
-<kw name="Close Flight Application">
-<status status="NOT RUN" starttime="20231204 22:19:03.955" endtime="20231204 22:19:03.955"/>
-</kw>
-<status status="PASS" starttime="20231204 22:19:03.329" endtime="20231204 22:19:05.957"/>
-</kw>
-<status status="PASS" starttime="20231204 22:19:03.328" endtime="20231204 22:19:05.957"/>
+<status status="PASS" starttime="20231205 13:19:15.130" endtime="20231205 13:19:16.920"/>
 </test>
-<status status="PASS" starttime="20231204 22:19:03.288" endtime="20231204 22:19:05.958"/>
+<status status="PASS" starttime="20231205 13:19:15.107" endtime="20231205 13:19:16.921"/>
 </suite>
 <statistics>
 <total>
